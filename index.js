@@ -20,20 +20,20 @@ app.get('/api', (req, res)=> {
     }
 })
 
-app.get("/", (req, res) => {
-    res.send("Welcome to Node")
-})
+// app.get("/", (req, res) => {
+//     res.send("Welcome to Node")
+// })
 
-app.get("/dashboard", (req, res) => {
-    res.send("Welcome to my dashboard")
-})
+// app.get("/dashboard", (req, res) => {
+//     res.send("Welcome to my dashboard")
+// })
 
-app.get(htmlPage, (req, res) => {
-    console.log('__dirname');
-    res.sendFile(__dirname+'/index.html')
-    // or
-    // res.send(`${__dirname}/index.html`)
-})
+// app.get(htmlPage, (req, res) => {
+//     console.log('__dirname');
+//     res.sendFile(__dirname+'/index.html')
+//     // or
+//     // res.send(`${__dirname}/index.html`)
+// })
 
 app.listen(port, () => {
     console.log("The port is running on 1000");
