@@ -1,19 +1,21 @@
-# 🔌 Node API
+# Node API
 
-A Node.js API project — building and deploying REST endpoints with Express.
+## Overview
 
-## 🧰 Tech Stack
+A Node.js API project focused on building and deploying REST endpoints with Express.
 
-`Node.js` `Express` `JavaScript`
+## Technology Stack
 
-## 🚀 Getting Started
+Node.js, Express, JavaScript
+
+## Getting Started
 
 ```bash
 git clone https://github.com/Tech-Guru19/API-node.git
 cd API-node
-# open index.html in your browser (or npm install && npm run dev for React/Node projects)
+# Open index.html in your browser, or run npm install && npm run dev for React and Node projects
 ```
 
-## 👩‍💻 Author
+## Author
 
-**[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)**
+[Obiasogu Esther Chizaram](https://github.com/Tech-Guru19)
